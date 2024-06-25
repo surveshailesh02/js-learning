@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Local Storage Assign</title>
+</head>
+<body>
+    <h2> Web Storage Demo </h2>
+    <h3> Local Storage</h3>
+</body>
+<script>
+    console.log("Local Storage");
+    window.localStorage.setItem("name", "Shailesh Suresh Surve");
+    window.localStorage.setItem("city", "Navi Mumbai");
+    window.localStorage.setItem("pinCode", "400709");
+    window.localStorage.setItem("distric", "Thane");
+    console.log(window.localStorage.getItem("name"));
+    console.log(window.localStorage.getItem("city"));
+    console.log(window.localStorage.getItem("pinCode"));
+    console.log(window.localStorage.getItem("distric"));
+    window.localStorage.removeItem("city");
+</script>
+</html>
