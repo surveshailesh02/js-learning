@@ -103,6 +103,45 @@ var str4 = "Rupees,Dollar,Krone,Pound,Dinar";
 const array5 = str4.split(" ");
 console.log(array5);
  
+console.log(`======= Step 7 ========`);
+console.log(`======= Reverse String Existing Method ========`);
+console.log(`======= Q.1 ========`);
+var str5 = "Software";
+const array6 = str5.split("").reverse().concat("");
+console.log(array6);
 
+console.log(`======= Q.2 ========`);
+var str6 = "UI Devloper";
+const array7 = str6.split("").reverse().concat("");
+console.log(array7);
 
+console.log(`======= Reverse String Without using Predefined Methods ========`);
+var word = "Web Devloper"; 
+console.log(word);
+var word = "Web Devloper"; 
+var result = "";
+for (let index = word.length-1; index >=0; index--) {
+    var ch = word.charAt(index);
+    result = result + ch;
+}
+console.log(`Reverse the Given string Is : ${result}`);
 
+var word = "Billion Dollar"; 
+console.log(word);
+var word = "Billion Dollar"; 
+var result = "";
+for (let index = word.length-1; index >=0; index--) {
+    var ch = word.charAt(index);
+    result = result + ch;
+}
+console.log(`Reverse the Given string Is : ${result}`);
+  
+var word = "Java"; 
+console.log(word);
+var word = "Java"; 
+var result = "";
+for (let index = word.length-1; index >=0; index--) {
+    var ch = word.charAt(index);
+    result = result + ch;
+}
+console.log(`Reverse the Given string Is : ${result}`);
